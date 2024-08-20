@@ -212,7 +212,14 @@ ul li::marker {
 img.lazyload {
   opacity: 0;
 }
-
+@media (min-width: 1250px) {
+  .srcoll_suit_box {
+    width: 100% !important;
+  }
+  .themes_cases {
+    width: calc(20% - 28px) !important;
+  }
+}
 /*文字大小，颜色，行距定义*/
 .fz_12px {
   font-size: 12px;

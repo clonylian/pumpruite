@@ -209,9 +209,9 @@ ul li::marker {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-/* img.lazyload {
+img.lazyload {
   opacity: 0;
-} */
+}
 
 /*文字大小，颜色，行距定义*/
 .fz_12px {
@@ -1036,7 +1036,8 @@ a.red:hover {
   display: block;
   border-radius: 100%;
   margin-bottom: 6px;
-  background: #07bb8a url(./icon_chat_menu.png) no-repeat 0 0;
+  background: #07bb8a
+    url(./icon_chat_menu.png) no-repeat 0 0;
   background-size: 60px auto;
 }
 #chat_window .chat_box .menu .more.disable {
@@ -1055,7 +1056,8 @@ a.red:hover {
   display: block;
   border-radius: 100%;
   margin-bottom: 6px;
-  background: #07bb8a url(./icon_chat_menu.png) no-repeat 0 0;
+  background: #07bb8a
+    url(./icon_chat_menu.png) no-repeat 0 0;
 }
 
 @media screen and (max-width: 1000px) {
@@ -6703,7 +6705,9 @@ html[data-theme="t273"]
 .chzn-container-single .chzn-search {
   height: 40px;
   line-height: 40px;
-  background: #f7f7f7 url(./address_search_icon.png) no-repeat center right 15px;
+  background: #f7f7f7
+    url(/static/v1/v6.0170/static/images/user/address_search_icon.png) no-repeat
+    center right 15px;
   padding: 0 50px 0 20px;
   position: relative;
   margin: 15px 16px 12px;
@@ -7085,26 +7089,34 @@ html[data-theme="t273"]
   cursor: pointer;
 }
 .signin_box_sec ul li.fb-login-button {
-  background: #1877f2 url(./facebook_icon.png) no-repeat center center;
+  background: #1877f2
+    url(/static/v1/v6.0170/static/images/user/facebook_icon.png) no-repeat
+    center center;
 }
 .signin_box_sec #fb_button {
-  background: url(./icon_facebook.png) #3c5998 center no-repeat;
+  background: url(./icon_facebook.png)
+    #3c5998 center no-repeat;
 }
 .signin_box_sec #fb_button:hover {
-  background: url(./icon_facebook.png) #4363a8 center no-repeat;
+  background: url(./icon_facebook.png)
+    #4363a8 center no-repeat;
 }
 .signin_box_sec #twitter_btn {
-  background: url(./icon_witter.png) #3498e4 center no-repeat;
+  background: url(./icon_witter.png) #3498e4
+    center no-repeat;
 }
 .signin_box_sec #twitter_btn:hover {
-  background: url(./icon_witter.png) #38a5f8 center no-repeat;
+  background: url(./icon_witter.png) #38a5f8
+    center no-repeat;
 }
 .signin_box_sec #paypalLogin {
   width: 60px !important;
-  background: url(./icon_paypal.png) #0093e9 center no-repeat;
+  background: url(./icon_paypal.png) #0093e9
+    center no-repeat;
 }
 .signin_box_sec #paypalLogin:hover {
-  background: url(./icon_paypal.png) #03a1fd center no-repeat;
+  background: url(./icon_paypal.png) #03a1fd
+    center no-repeat;
 }
 .signin_box_sec #paypalLogin .PPBlue_V2 {
   border: 0 !important;
@@ -7116,10 +7128,12 @@ html[data-theme="t273"]
 }
 .signin_box_sec #paypalLogin2 {
   width: 60px !important;
-  background: url(./icon_paypal.png) #0093e9 center no-repeat;
+  background: url(./icon_paypal.png) #0093e9
+    center no-repeat;
 }
 .signin_box_sec #paypalLogin2:hover {
-  background: url(./icon_paypal.png) #03a1fd center no-repeat;
+  background: url(./icon_paypal.png) #03a1fd
+    center no-repeat;
 }
 .signin_box_sec #paypalLogin2 .PPBlue_V2 {
   border: 0 !important;
@@ -7130,16 +7144,20 @@ html[data-theme="t273"]
   visibility: hidden !important;
 }
 .signin_box_sec #vk_button {
-  background: url(./icon_vk.png) #507299 center no-repeat;
+  background: url(./icon_vk.png) #507299
+    center no-repeat;
 }
 .signin_box_sec #vk_button:hover {
-  background: url(./icon_vk.png) #5f86b4 center no-repeat;
+  background: url(./icon_vk.png) #5f86b4
+    center no-repeat;
 }
 .signin_box_sec #instagram_button {
-  background: url(./icon_instagram.png) #8e6151 center no-repeat;
+  background: url(./icon_instagram.png)
+    #8e6151 center no-repeat;
 }
 .signin_box_sec #instagram_button:hover {
-  background: url(./icon_instagram.png) #987061 center no-repeat;
+  background: url(./icon_instagram.png)
+    #987061 center no-repeat;
 }
 .signin_box_sec .signup {
   display: block;
